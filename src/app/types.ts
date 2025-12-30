@@ -5,6 +5,7 @@ export interface Client {
     email?: string;
     phone?: string;
     notes?: string;
+    created_at: string;
 }
 
 export interface Appointment {
